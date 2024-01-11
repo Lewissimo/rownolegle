@@ -2,7 +2,7 @@
 #include <omp.h>
 
 int main(void){
-    #pragma omp parallel num_threads(3)
+    #pragma omp parallel num_threads(8)
     {
         printf("Kamil\n");
     }
